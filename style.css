@@ -1,0 +1,350 @@
+.orbit-2{
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.Venus{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("./planents-image/Venus.jpg");
+    background-position: center;
+    z-index: 1000;
+    filter: blur(1px);
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    overflow: hidden;
+    -webkit-animation: circle2 90s linear infinite;
+    animation: circle2 90s linear infinite;
+    
+}
+@-webkit-keyframes circle2{
+    0%{
+        transform: rotate(110deg) translate(-240px) rotate(110deg);
+    }
+    100%{
+        transform: rotate(-360deg) translate(-240px) rotate(360deg);
+    }
+}
+@keyframes circle2 {
+    0%{
+        transform: rotate(110deg) translate(-240px) rotate(110deg);
+    }
+    100%{
+
+        transform: rotate(-360deg) translate(-240px) rotate(360deg);
+    }
+}
+
+
+.orbit-3{
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.earth{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url("./planents-image/Earth.jpg");
+    /* background-position: center; */
+    background-size: contain;
+    z-index: 1000;
+    filter: blur(1px);
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    overflow: hidden;
+    -webkit-animation: circle3 130s linear infinite;
+    animation: circle3 130s linear infinite;
+    
+}
+
+.moon-orbit{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid rgba(251, 252, 252, 0.26);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+    margin: auto;
+    -webkit-animation: circle3 130s linear infinite;
+    animation: circle3 130s linear infinite;
+}
+.moon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:  rgb(252, 252, 252);
+    /* transform: translateX(-30%) translateY(-22%) rotate(120deg); */
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+    margin: auto;
+    filter: blur(1px);
+    -webkit-animation: moon 13s linear infinite;
+    animation: moon 13s linear infinite;
+}
+@-webkit-keyframes moon{
+    0%{
+        transform: rotate(0deg) translate(-55px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(-55px) rotate(-360deg);
+    }
+}
+@keyframes moon {
+    0%{
+        transform: rotate(0deg) translate(-55px) rotate(0deg);
+    }
+    100%{
+
+        transform: rotate(360deg) translate(-55px) rotate(-360deg);
+    }
+}
+@-webkit-keyframes circle3{
+    0%{
+        transform: rotate(90deg) translate(-290px) rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(-290px) rotate(-360deg);
+    }
+}
+@keyframes circle3 {
+    0%{
+        transform: rotate(90deg) translate(-290px) rotate(90deg);
+    }
+    100%{
+
+        transform: rotate(360deg) translate(-290px) rotate(-360deg);
+    }
+}
+
+.orbit-4{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.Mars{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("./planents-image/Mars.jpg");
+    background-position: center;
+    z-index: 1000;
+    filter: blur(1px);
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    overflow: hidden;
+    -webkit-animation: circle4 180s linear infinite;
+    animation: circle4 180s linear infinite;
+    
+}
+@-webkit-keyframes circle4{
+    0%{
+        transform: rotate(110deg) translate(-340px) rotate(110deg);
+    }
+    100%{
+        transform: rotate(-360deg) translate(-340px) rotate(360deg);
+    }
+}
+@keyframes circle4 {
+    0%{
+        transform: rotate(110deg) translate(-340px) rotate(110deg);
+    }
+    100%{
+
+        transform: rotate(-360deg) translate(-340px) rotate(360deg);
+    }
+}
+
+.orbit-5{
+    width: 820px;
+    height: 820px;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.Jupiter{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-image: url("./planents-image/Jupiter.jpg");
+    /* background-position: center; */
+    background-size: contain;
+    z-index: 1000;
+    filter: blur(1px);
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    overflow: hidden;
+    -webkit-animation: circle5 110s linear infinite;
+    animation: circle5 110s linear infinite;
+    
+}
+@-webkit-keyframes circle5{
+    0%{
+        transform: rotate(90deg) translate(-410px) rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(-410px) rotate(-360deg);
+    }
+}
+@keyframes circle5 {
+    0%{
+        transform: rotate(90deg) translate(-410px) rotate(90deg);
+    }
+    100%{
+
+        transform: rotate(360deg) translate(-410px) rotate(-360deg);
+    }
+}
+
+
+.orbit-6{
+    width: 920px;
+    height: 920px;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.Saturn{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-image: url("./planents-image/file.png");
+    background-size: contain;
+    /* background-position: center; */
+    z-index: 1000;
+    filter: blur(1px);
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    overflow: hidden;
+    -webkit-animation: circle6 280s linear infinite;
+    animation: circle6 280s linear infinite;
+    
+}
+@-webkit-keyframes circle6{
+    0%{
+        transform: rotate(70deg) translate(-470px) rotate(70deg);
+    }
+    100%{
+        transform: rotate(-360deg) translate(-470px) rotate(360deg);
+    }
+}
+@keyframes circle6 {
+    0%{
+        transform: rotate(70deg) translate(-470px) rotate(70deg);
+    }
+    100%{
+
+        transform: rotate(-360deg) translate(-470px) rotate(360deg);
+    }
+}
+
+
+.orbit-7{
+    width: 1090px;
+    height: 1090px;
+    border-radius: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.Uranus{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-image: url("./planents-image/Uranus.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 1000;
+    filter: blur(1px);
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    overflow: hidden;
+    -webkit-animation: circle7 110s linear infinite;
+    animation: circle7 110s linear infinite;
+    
+}
+@-webkit-keyframes circle7{
+    0%{
+        transform: rotate(50deg) translate(-545px) rotate(50deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(-545px) rotate(-360deg);
+    }
+}
+@keyframes circle7 {
+    0%{
+        transform: rotate(50deg) translate(-545px) rotate(50deg);
+    }
+    100%{
+
+        transform: rotate(360deg) translate(-545px) rotate(-360deg);
+    }
+}
+
+.orbit8{
+    width: 1240px;
+    height: 1240px;
+    border-radius: 50%;
+    border: 2px solid rgba(252, 249, 249, 0.13);
+    transform: translateX(-30%) translateY(-22%) rotate(120deg);
+    position: absolute; 
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+.Neptune{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url("./planents-image/Neptune.jpg");
+    background-position: center;
+    z-index: 1000;
+    filter: blur(1px);
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    overflow: hidden;
+    -webkit-animation: circle8 280s linear infinite;
+    animation: circle8 280s linear infinite;
+    
+}
+@-webkit-keyframes circle8{
+    0%{
+        transform: rotate(70deg) translate(-630px) rotate(70deg);
+    }
+    100%{
+        transform: rotate(-360deg) translate(-630px) rotate(360deg);
+    }
+}
+@keyframes circle8 {
+    0%{
+        transform: rotate(70deg) translate(-630px) rotate(70deg);
+    }
+    100%{
+
+        transform: rotate(-360deg) translate(-630px) rotate(360deg);
+    }
+}
